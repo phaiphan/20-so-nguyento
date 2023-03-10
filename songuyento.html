@@ -1,0 +1,21 @@
+<body>
+    <script>
+        let num=2
+        let dem=0
+        let num2
+        text= ""
+        while (dem<20) {
+            let a=2 ;
+            while (a<num) {
+                if (num%a != 0) { a++ } 
+                else num++ 
+            }
+            num++
+            dem++ ;
+            num2=num-1
+            
+            text=text + num2 + "<br>" ;
+        }
+        document.write(text);
+    </script>
+</body>
